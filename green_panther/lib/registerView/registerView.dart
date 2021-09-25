@@ -69,6 +69,14 @@ class _RegisterState extends State<Register> {
 
                   _buildTextField(passwordController, Icons.lock, "Password", true),
 
+                  GestureDetector(
+                    child: Text("Already have an account?"),
+                    onTap: (){
+                      NavigationHelper().navigateToSignIn(context);
+                    },
+                  ),
+
+
                   SizedBox(height: 30),
 
 
