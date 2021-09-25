@@ -57,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _incrementCounter() {
     setState(() {
-      NavigationHelper().navigateToSignIn(context);
+      NavigationHelper().navigateToRegister(context);
       _counter++;
     });
   }
